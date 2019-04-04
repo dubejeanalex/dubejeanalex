@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Bootstrap World</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+<header>
+<!-- Ceci est ma navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#Banniere">Bannière <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Mémoire vive</a></li>
+                <li class="nav-item"><a class="nav-link" href="#CarteGraphique">Carte Graphique</a></li>
+                <li class="nav-item"><a class="nav-link " href="#Processeur">Processeur</a></li>
+                <li class="nav-item"><a class="nav-link " href="#Gallerie">Gallerie d'image</a></li>
+                <li class="nav-item"><a class="nav-link " href="#Description">Description</a></li>
+                <li class="nav-item"><a class="nav-link " href="#FondCouleur">Fond Couleur</a></li>
+                <li class="nav-item"><a class="nav-link " href="#FontAwesome">Font Awesome</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- CEci est ma première section -->
+<div id="Banniere" class="container-fluid fond1 text-center ">
+    <div class="row ">
+        <div class=" offset-xl-3 col-xl-6 col-md-8 col-12 paddintop1  ">
+
+            <h1 class="h1a">Site internet qui vous présentera les pièces d'ordinateurs!!</h1>
+            <hr class="hrOrange">
+            <p class="pjaune">ll sera question d'un bref survol des compsantes présent à l'intérieur d'un ordinateur. Vous y retrouverez des infos sur chacunes pièces et quelques images.</p>
+            <a href="https://fr.wikipedia.org/wiki/Processeur " target="_blank" > <input type="button" class="btn btn-danger" value="Processeur"> </a>
+        </div>
+    </div>
+</div>
+<!-- Ceci est ma deuxième section -->
+<section id="FondCouleur">
+    <div class="container-fluid fond2">
+        <div class="row">
+            <div class="offset-xl-3 col-xl-6 col-md-8 col-12 text-center paddintop2">
+                    <h4 class="">Voici le lien vers la carte graphique. </h4>
+                    <hr class="hrBlanc">
+                    <p>La carte graphique est un composant de l'unité centrale chargé de l'affichage sur l'écran : Windows, les fenêtres, le bureau... Les cartes graphiques puissantes ont pour rôle également de gérer les affichages 3D (jeux vidéo). Les principaux constructeurs de cartes graphiques sont Nvidia et ATI.</p>
+                    <a href="#CarteGraphique"> <input type="button" class="btn btn-light" value="Carte Graphique"> </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ceci est ma 3ieme session. -->
+<div id="FontAwesome" class="container-fluid  ">
+    <div class="row text-center align-items-center paddingb ">
+        <div class="col-xl-12 ">
+            <h2 >Section font awesome </h2>
+             <hr class="hrOrange">
+        </div>
+        <div class="col-xl-3 col-md-6 col-12   ">
+            <i class="fas fa-memory fa-4x"></i>
+            <h6>Mémoire vive</h6>
+        </div >
+         <div class="col-xl-3 col-md-6 col-12  ">
+             <i class="fas fa-microchip fa-4x   "></i>
+             <h6>Cpu</h6>
+         </div>
+         <div class="col-xl-3 col-md-6 col-12  ">
+               <i class="fas fa-hdd fa-4x "></i>
+             <h6>Hdd</h6>
+         </div>
+        <div class="col-xl-3 col-md-6 col-12  ">
+             <i class="fas fa-database fa-4x "></i>
+            <h6>Base donnes</h6>
+         </div>
+    </div>
+</div>
+<!-- Ceci est ma 4ieme section. -->
+<div class="container-fluid  " id="Gallerie">
+    <div class="row no-gutters  ">
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/carteGrpahique.jpg" class="img-fluid"></div>
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/processeur.jpg" class="img-fluid" ></div>
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/memoire.jpg" class="img-fluid" ></div>
+
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/ssd.jpg" class="img-fluid "></div>
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/hdd.jpg" class="img-fluid"/></div>
+        <div class="col-xl-4 col-md-6 col-12"><img src="img/motherboard.jpg" class="img-fluid"/></div>
+    </div>
+
+</div>
+
+<!-- Ceci est ma 5ieme sextion -->
+<div id="Description" class="container">
+    <div class="row">
+        <div  class="col-xl-6 padding col-md-8 col-12">
+            <h1> C'est quoi une carte mère ?</h1>
+            <p>La carte mère est l'ossature de tout ordinateur compatible PC. Elle est essentiellement composée de circuits imprimés et de ports de connexion qui assurent la liaison de tous les composants et périphériques propres à un micro-ordinateur (disques durs, mémoire vive, microprocesseur, cartes filles, etc.) afin qu'ils puissent être reconnus et configurés par le microprocesseur grâce au programme contenu dans le BIOS, au travers de la carte, afin d'assurer la configuration et le démarrage correct de tous les équipements.</p>
+            <h3>C'est quoi la mémoire vive ?</h3>
+            <P>La mémoire vive est la mémoire informatique dans laquelle peuvent être stockées, puis effacées, les informations traitées par un appareil informatique. On écrit mémoire vive par opposition à la mémoire mortea ou mémoire à accès directb par opposition à un accès séquentiel.</P>
+            <a href="#Formulaire" > <input type="button" class="btn btn-danger" value="Remplir le formulaire"> </a>
+            <div class="padding"></div>
+        </div>
+        <div class="col-xl-6 padding">
+            <img src="img/boitier.jpg">
+        </div>
+    </div>
+</div>
+
+<!-- Ceci est ma 6ieme section  parralax1 -->
+<div id="CarteGraphique" class="container-fluid parallax">
+    <div class="row">
+        <div class=" offset-xl-6 col-xl-6 col-md-8 col-12 margintopz3">
+            <h1 class="h1a">Carte graphique </h1>
+            <p class="h2a">Depuis les années 2000, la puissance de calcul des cartes graphiques est devenue tellement importante pour un coût finalement très réduit (100 à 700 € pour les modèles grand public) que les scientifiques sont de plus en plus nombreux à vouloir en exploiter le potentiel dans d’autres domaines. Il peut s’agir de faire tourner des simulations de modèles météo, financiers ou toute opération parallélisable et nécessitant une très grande quantité de calcul. NVIDIA et ATI/AMD, les 2 principaux fabricants de cartes graphiques haute performance grand public proposent chacun des solutions propriétaires afin de pouvoir utiliser leur produit pour du calcul scientifique. </p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Ceci est ma 7ieme section parralax2 -->
+
+
+<div id="Processeur" class="container-fluid parallax2">
+    <div class="row80 align-content-end padding  ">
+        <div class="col-xl-6 h2a   ">
+                <h1 class="h1a">Le processeur</h1>
+                <p>Un processeur (ou unité centrale de traitement, UCT, en anglais central processing unit, CPU) est un composant présent dans de nombreux dispositifs électroniques qui exécute les instructions machine des programmes informatiques. Avec la mémoire, c'est notamment l'un des composants qui existent depuis les premiers ordinateurs et qui sont présents dans tous les ordinateurs</p>
+        </div>
+    </div>
+</div>
+
+<!-- ceci est ma section formulaire -->
+
+<div class="container">
+    <div class="row">
+
+        <div class="offset-xl-4 col-xl-4 col-md-6 col-8 margintopz3 text-center">
+            <div class="card bg-light">
+                <p></p>
+                <h5>Formulaire pour question.</h5>
+                <p></p>
+                <form id="Formulaire">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nom" aria-describedby="emailHelp" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="prenom" aria-describedby="emailHelp" placeholder="Entrez votre prenom">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Adresse Courriel" aria-describedby="emailHelp" placeholder="Indiquer vote adresse courriel">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Sujet" aria-describedby="emailHelp" placeholder="Sujet ">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Question</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+<footer>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>

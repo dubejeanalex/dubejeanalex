@@ -1,0 +1,138 @@
+html,body { margin:0; height:100%;}
+/* Fond d'écran */
+
+.fond1
+{
+    background-image: url("../img/FondSection1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hauteur100
+{
+    height: 30%;
+}
+
+
+
+
+
+/* Modification de texte */
+
+.h1a /* Colori le texte h1 en blanc */
+{
+    color: white;
+}
+.h2a /* Colori le texte h1 en blanc */
+{
+    color: white;
+}
+
+
+
+
+/* donne un paddingtop */
+.paddintop1
+{
+    padding-top: 15%;
+}
+.paddintop2
+{
+    margin-top: 5%;
+}
+/* Met une petite barre blanche  */
+.hrBlanc
+{
+
+    padding-bottom: 0px;
+    padding-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+.hrOrange
+{
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: orange;
+}
+/* c
+/* colorie <p> en rouge */
+.pjaune
+{
+    color: yellow;
+}
+/* Applique background orange pour la section 2 Section fond de couleur*/
+.fond2
+{
+
+    background-color: orangered;
+    height: 390px;
+}
+.parallax
+{
+    background-image: url("../img/fond1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2
+{
+    background-image: url("../img/fond2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row80
+{
+    height: 80%;
+}
+.row20
+{
+    height: 20%;
+}
+.padding
+{
+    padding-top: 50px;
+
+}
+.paddingb
+{
+    padding-bottom: 70px;
+}
+
+.margintopz3
+{
+    margin-top: 8% ;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .fond1
+    {
+        background-image: url("../img/hdd-v-ssd.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    .h1a
+    {
+        color: white;
+        font-size: 22px;
+
+    }
+
+
+}
+
